@@ -1,15 +1,15 @@
-
-import './App.css'
+import Home from "./components/Home";
+import Header from "./components/Header";
+import "./App.css";
 
 function App() {
-
-
   return (
     <>
-  <p className='text-black'>helloe world</p>
-       
+     
+      <Header />
+       <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
