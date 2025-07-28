@@ -44,10 +44,35 @@ const About = () => {
         </div>
       </section>
       <section>
-        <div className="bg-[#DDF6D2] w-[40vw] h-[500px]">
-          <div className="flex gap-2 items-center">
-            <div className="text-5xl">🧠</div>
-            <h1 className="text-2xl">Skills</h1>
+        <div className="flex gap-2 items-center px-5 py-2">
+          <div className="text-5xl">🧠</div>
+          <h1 clasName="text-3xl">Skills</h1>
+        </div>
+        <div className="bg-[#DDF6D2] w-[40vw] h-[550px] flex flex-col justify-center px-5">
+          <div className="mb-6 ">
+           
+            <div className="mb-6">
+               <h1 className="text-2xl">Languages I Know – Basics & Fundamentals</h1>
+              <i class="fa-brands fa-python"></i>
+              <i class="fa-brands fa-java"></i>
+              <i class="fa-solid fa-c">++</i>
+              <i class="fa-brands fa-js"></i>
+            </div>
+           
+            <div className="mb-6"> 
+               <h1 className="text-2xl">Technologies I Use in Web Development</h1>
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css"></i>
+              <i class="fa-brands fa-js"></i>
+              <i class="fa-brands fa-react"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+           
+            <div className="mb-6">
+               <h1 className="text-2xl">Others</h1>
+              <p>Repairing Personal Computers and Laptops</p>
+              <p>Basics Netwroking</p>
+            </div>
           </div>
         </div>
       </section>
